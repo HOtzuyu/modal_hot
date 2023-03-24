@@ -1,0 +1,49 @@
+.modal {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: #233867 solid 1px;
+}
+
+.modal__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.modal__header--title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.modal__header--button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.modal__text {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.modal__close{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* reset buttons */
+.modal__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

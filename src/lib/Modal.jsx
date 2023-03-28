@@ -14,13 +14,13 @@ export const Modale = ({
       <>
         <div className="modal">
           <div className="modal__header">
-            <h5 className="modal__header--title">{title}</h5>
             <button
               className="modal__header--button modal__button"
               onClick={hideModal}
             >
               {cross}
             </button>
+            <h5 className="modal__header--title">{title}</h5>
           </div>
           <p className="modal__text">{text}</p>
           <button

@@ -18,12 +18,12 @@ var Modale = function Modale(_ref) {
     className: "modal"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal__header"
-  }, /*#__PURE__*/_react.default.createElement("h5", {
-    className: "modal__header--title"
-  }, title), /*#__PURE__*/_react.default.createElement("button", {
+  }, /*#__PURE__*/_react.default.createElement("button", {
     className: "modal__header--button modal__button",
     onClick: hideModal
-  }, cross)), /*#__PURE__*/_react.default.createElement("p", {
+  }, cross), /*#__PURE__*/_react.default.createElement("h5", {
+    className: "modal__header--title"
+  }, title)), /*#__PURE__*/_react.default.createElement("p", {
     className: "modal__text"
   }, text), /*#__PURE__*/_react.default.createElement("button", {
     className: "modal__button modal__close",

@@ -1,20 +1,22 @@
 .modal {
-    width: 25%;
-    margin: auto;
+    z-index: 1001;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    border: #233867 solid 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
 }
 
 .modal__header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    width: 100%;
 }
 
 .modal__header--title {
@@ -23,9 +25,6 @@
 }
 
 .modal__header--button {
-    position: absolute;
-    right: 10px;
-    top: 10px;
     font-weight: bold;
     font-size: 1.2rem;
 

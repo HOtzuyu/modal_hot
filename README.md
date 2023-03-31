@@ -10,7 +10,7 @@
 
 **2 - Use this state :**
 
-`const [displayModal, setDisplayModal] = useState(false)`
+`const [ displayModal, setDisplayModal ] = useState(false)`
 
 **3 - Return the modal :**
 
@@ -20,7 +20,7 @@
     text={ modalText }
     cross={ modalCloseButton }
     button={ modalCloseButtonText }
-    showModal={displayModal}
+    showModal={ displayModal }
     hideModal={() => setDisplayModal(false)}
 />
 ```
@@ -44,3 +44,58 @@ modal\_\_close : button close
 modal\_\_button : all buttons
 
 The names use all lowercase letters with dashes for separation if you want use Sass
+
+## Exemple of personal stylisation with css
+
+Custom the style :
+
+```
+.modal {
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.modal__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__header--title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.modal__header--button {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.modal__text {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.modal__close{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+/* reset buttons */
+.modal__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+```

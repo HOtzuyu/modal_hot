@@ -1,8 +1,11 @@
 {
   "name": "modal_lib-ho",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "keywords": ["modal","OC", "P14"],
+  "description": "A modal library component",
+  "author": "HO TZU YU",
   "files": [
     "dist"
   ],

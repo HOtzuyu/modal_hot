@@ -1,6 +1,16 @@
 import React from "react";
 import "./Modal.css";
 
+/**
+ * @description the library component modal full screen personalisable
+ * @param { string } title : on the top of the modal
+ * @param { string } cross : what in the button to close modal
+ * @param { string } text : message ofthe modal
+ * @param { string } button : text in the close button
+ * @param { boolean } showModal
+ * @param { function setDisplayModal(boolean) } hideModal
+ * @returns a modal
+ */
 export const Modale = ({
   title,
   cross,

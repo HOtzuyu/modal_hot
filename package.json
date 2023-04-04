@@ -1,6 +1,6 @@
 {
   "name": "modal_lib-ho",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "keywords": ["modal","OC", "P14"],
